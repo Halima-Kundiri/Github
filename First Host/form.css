@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    background-color: whitesmoke;
+    height: 40%;
+    width: 40%;
+    border: 4px darkorange solid;
+    border-radius: 7px;
+    padding-top: 4%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+label{
+    font-size: 120%;
+    font-family: serif;
+}
+input{
+    width: 98%;
+    height: 2em;
+    padding-left: 2%;
+}
+
+p{
+    font-size: 70%;
+}
+
+
+
+#submit{
+    background-color:darkorange;
+    width: 30%;
+    height: 2.5em;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 375px){
+    #box{
+        width: 75%;
+        height: 50%;
+    }
+
+    
+}
